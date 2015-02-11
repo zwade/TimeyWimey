@@ -50,6 +50,7 @@ public class DataManagement : MonoBehaviour {
 
 	void recordInterval () {
 		foreach (GameObject go in objects) {
-
+			
+		}
 	}
 }
