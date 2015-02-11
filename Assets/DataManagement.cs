@@ -28,7 +28,7 @@ public class DataManagement : MonoBehaviour {
 	private LinkedElement[] time;
 
 	private float gameTime;
-	private float isRunning = false;
+	private bool isRunning = false;
 
 
 	// Use this for initialization
