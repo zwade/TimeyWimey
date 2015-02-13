@@ -27,7 +27,7 @@ public class DataManagement : MonoBehaviour {
 
 	public GameObject[] objects;
 
-	private LinkedElement[,] time;
+	private LinkedElement[][] time;
 
 	private float gameTime;
 	private bool isRunning = false;
@@ -35,7 +35,7 @@ public class DataManagement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		time = new LinkedElement[numplayers*numlives,(int)(1.0/DataManagement.dt*DataManagement.len)];
+		time = new LinkedElement[numplayers*numlives][(int)(1.0/DataManagement.dt*DataManagement.len)];
 	}
 	
 	// Update is called once per frame
